@@ -3,7 +3,8 @@ backend:
   phases:
     build:
       commands:
-        - npm install
+        - npm install --loglevel=error
+        
 frontend:
   phases:
     build:
